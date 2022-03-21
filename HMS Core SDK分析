@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T06:00:55.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="RwFVE6GLMxbtJqF6BBqw" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T06:03:18.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="yqW4MPeLvSTIywpZBggn" version="17.1.3" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="pA3N5253X46plW0PrLuC-1" value="API" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" parent="1" vertex="1">
           <mxGeometry x="170" y="350" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pA3N5253X46plW0PrLuC-2" value="- a: String = &quot;HuaweiPush.API&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontColor=#FF0000;fontStyle=1" parent="pA3N5253X46plW0PrLuC-1" vertex="1">
+        <mxCell id="pA3N5253X46plW0PrLuC-2" value="- a: String = &quot;HuaweiPush.API&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontColor=#FF0000;fontStyle=0" parent="pA3N5253X46plW0PrLuC-1" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pA3N5253X46plW0PrLuC-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Lucida Console;" parent="pA3N5253X46plW0PrLuC-1" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="ZpQRgvAXu14cccVvqMpk-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-13">
           <mxGeometry y="60" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZpQRgvAXu14cccVvqMpk-16" value="+ connect&#xa;+ getService&#xa;+ getServiceAction = &quot;com.huawei.hms.core.aidlservice&quot;&#xa;+ getTransportName = &quot;IPCTransport&quot;&#xa;- bindCoreService&#xa;- onServiceConnected()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-13">
+        <mxCell id="ZpQRgvAXu14cccVvqMpk-16" value="+ connect&#xa;+ getService&#xa;+ getServiceAction = &quot;com.huawei.hms.core.aidlservice&quot;&#xa;+ getTransportName = &quot;IPCTransport&quot;&#xa;- bindCoreService&#xa;- onServiceConnected()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontColor=#FF0000;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-13">
           <mxGeometry y="68" width="280" height="102" as="geometry" />
         </mxCell>
         <mxCell id="ZpQRgvAXu14cccVvqMpk-17" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZpQRgvAXu14cccVvqMpk-13" target="ZpQRgvAXu14cccVvqMpk-12">
@@ -157,7 +157,7 @@
         <mxCell id="ZpQRgvAXu14cccVvqMpk-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-29">
           <mxGeometry y="60" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZpQRgvAXu14cccVvqMpk-32" value="+ hmsVerHigherThan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-29">
+        <mxCell id="ZpQRgvAXu14cccVvqMpk-32" value="+ hmsVerHigherThan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontColor=#FF0000;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-29">
           <mxGeometry y="68" width="320" height="62" as="geometry" />
         </mxCell>
         <mxCell id="ZpQRgvAXu14cccVvqMpk-33" value="ApiClient" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" vertex="1" parent="1">
@@ -181,7 +181,7 @@
         <mxCell id="ZpQRgvAXu14cccVvqMpk-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-37">
           <mxGeometry y="60" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ZpQRgvAXu14cccVvqMpk-40" value="+ getService: d extends IInterface" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-37">
+        <mxCell id="ZpQRgvAXu14cccVvqMpk-40" value="+ getService: d extends IInterface" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontColor=#FF0000;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-37">
           <mxGeometry y="68" width="260" height="62" as="geometry" />
         </mxCell>
         <mxCell id="ZpQRgvAXu14cccVvqMpk-43" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Lucida Console;entryX=0.474;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZpQRgvAXu14cccVvqMpk-37" target="ZpQRgvAXu14cccVvqMpk-36">
@@ -199,7 +199,7 @@
         <mxCell id="ZpQRgvAXu14cccVvqMpk-45" value="BinderAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="930" y="1125" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZpQRgvAXu14cccVvqMpk-46" value="- mAction: &quot;com.huawei.hms.core.aidlservice&quot;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-45">
+        <mxCell id="ZpQRgvAXu14cccVvqMpk-46" value="- mAction: &quot;com.huawei.hms.core.aidlservice&quot;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontColor=#FF0000;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-45">
           <mxGeometry y="26" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="ZpQRgvAXu14cccVvqMpk-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-45">
@@ -290,7 +290,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZpQRgvAXu14cccVvqMpk-72" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontFamily=Lucida Console;entryX=0.521;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.696;exitY=-0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZpQRgvAXu14cccVvqMpk-50" target="ZpQRgvAXu14cccVvqMpk-40">
+        <mxCell id="ZpQRgvAXu14cccVvqMpk-72" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;fontFamily=Lucida Console;entryX=0.521;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZpQRgvAXu14cccVvqMpk-50" target="ZpQRgvAXu14cccVvqMpk-40">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="-30" y="1575" as="sourcePoint" />
             <mxPoint x="130" y="1575" as="targetPoint" />
@@ -380,9 +380,9 @@
         <mxCell id="ZpQRgvAXu14cccVvqMpk-94" value="+ buildClient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="ZpQRgvAXu14cccVvqMpk-91">
           <mxGeometry y="68" width="230" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="ZpQRgvAXu14cccVvqMpk-95" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Lucida Console;entryX=-0.013;entryY=0.765;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.983;exitY=-0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZpQRgvAXu14cccVvqMpk-82" target="ZpQRgvAXu14cccVvqMpk-92">
+        <mxCell id="ZpQRgvAXu14cccVvqMpk-95" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Lucida Console;entryX=0.022;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZpQRgvAXu14cccVvqMpk-93">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-460" y="730" as="sourcePoint" />
+            <mxPoint x="-260" y="620" as="sourcePoint" />
             <mxPoint x="-300" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
