@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T06:17:43.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="0xHBStiJov-WlJ1b2Bmb" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-21T06:26:59.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="CcLEAlMgSH7IM7swYNal" version="17.1.3" type="github">
   <diagram name="类图" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -523,95 +523,6 @@
             <mxPoint x="-148.55999999999995" y="1149.672" as="sourcePoint" />
             <mxPoint x="-74.53999999999996" y="1112.008" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="LYJOY-b4DLjQYp4SutPo" name="模型图">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-0" />
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-1" parent="DNmb_cYHnqd2LS58Lw4a-0" />
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-9" value="服务端" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="1090" width="470" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-8" value="客户端" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="30" width="940" height="520" as="geometry" />
-        </mxCell>
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-2" value="Push SDK&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="40" y="50" width="200" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-6" value="请求体 封装成JSON" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-4" target="93AuZkHYcOMYjDsBqiQM-11">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="430" y="360" as="sourcePoint" />
-            <mxPoint x="590" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-11" target="93AuZkHYcOMYjDsBqiQM-14">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="270" y="205" as="sourcePoint" />
-            <mxPoint x="319" y="206" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-8" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-14" target="93AuZkHYcOMYjDsBqiQM-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="400" y="370" as="sourcePoint" />
-            <mxPoint x="505" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DNmb_cYHnqd2LS58Lw4a-9" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-11" target="93AuZkHYcOMYjDsBqiQM-12">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="490" y="130" as="sourcePoint" />
-            <mxPoint x="650" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-1" value="PushClient" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="70" y="90" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-2" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-1" target="93AuZkHYcOMYjDsBqiQM-13">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="470" as="sourcePoint" />
-            <mxPoint x="810" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-3" value="PushClientBuilder" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="70" y="170" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-4" value="HmsInstanceId" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="70" y="220" width="150" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-5" value="create" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-3" target="93AuZkHYcOMYjDsBqiQM-1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="220" y="460" as="sourcePoint" />
-            <mxPoint x="380" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-12" target="93AuZkHYcOMYjDsBqiQM-13">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="542.5" y="270" as="sourcePoint" />
-            <mxPoint x="627.5" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-7" value="APIGateway" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="1140" y="260" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-10" value="AIDL通信&lt;br&gt;（JSON）" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="DNmb_cYHnqd2LS58Lw4a-1" source="93AuZkHYcOMYjDsBqiQM-13" target="93AuZkHYcOMYjDsBqiQM-7">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="910" y="590" as="sourcePoint" />
-            <mxPoint x="1070" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-11" value="HuaweiApi" style="html=1;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="370" y="170" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-12" value="ConnectionManager" style="html=1;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="600" y="170" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-13" value="AnyClient&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;请求头&amp;nbsp;封装成JSON" style="html=1;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="790" y="170" width="150" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="93AuZkHYcOMYjDsBqiQM-14" value="HuaweiApiManager&amp;nbsp;" style="html=1;fontFamily=Lucida Console;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="DNmb_cYHnqd2LS58Lw4a-1">
-          <mxGeometry x="490" y="260" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
